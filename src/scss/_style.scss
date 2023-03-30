@@ -1,0 +1,29 @@
+.container {
+    height: 100vh;
+    background-color: var(--color-1ee);
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper-content {
+    max-width: 38.4rem;
+
+    @include mq(sm, max) {
+        padding: 0 7%;
+    }
+}
+
+.label-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.input-wrapper {
+    position: relative;
+}

@@ -1,0 +1,15 @@
+.c-figure {
+    width: 50%;
+    background-color: var(--color-7d);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../assets/bg.jpg');
+
+    &__img {
+        height: inherit;
+    }
+
+    @include mq(md, max) {
+        display: none;
+    }
+}

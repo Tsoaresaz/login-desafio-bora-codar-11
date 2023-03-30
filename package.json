@@ -1,0 +1,17 @@
+{
+  "name": "desafio11",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\"> Uma página de login </h1>",
+  "main": "gulpfile.js",
+  "scripts": {
+    "gulp-dev": "gulp watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.60.0"
+  }
+}
