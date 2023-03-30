@@ -27,6 +27,7 @@ img {
   --color-94: #94A3B8;
   --color-7c: #7C3AED;
   --color-ff: #ffffff;
+  --color-9f: #9F67FF;
 }
 
 .u-flex {
@@ -152,6 +153,9 @@ img {
 .c-form__input::placeholder {
   color: var(--color-94);
 }
+.c-form__input:hover, .c-form__input:focus {
+  outline: 2px solid var(--color-7c);
+}
 .c-form__eye-button {
   position: absolute;
   top: 50%;
@@ -170,6 +174,11 @@ img {
   margin-top: 3.2rem;
   background-color: var(--color-7c);
   border-radius: 0.4rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.c-form__submit:hover {
+  background-color: var(--color-9f);
 }
 
 .c-create {

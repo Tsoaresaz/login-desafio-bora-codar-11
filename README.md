@@ -29,6 +29,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Figma
 - Gulp
 - Gulp-Sass
+- Gulp-Concat
+- Gulp-Uglify
 - Sass
 
 

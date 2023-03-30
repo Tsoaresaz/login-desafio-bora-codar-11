@@ -38,8 +38,9 @@
                             <div class="input-wrapper">
                                 <input class="c-form__input u-d-block" type="password" name="password" id="password"
                                 placeholder="Digite sua senha">
-                                <button class="c-form__eye-button u-reset">
-                                    <img class="c-form__eye" src="./assets/eye-off.svg" alt="senha não visivel">
+                                
+                                <button class="c-form__eye-button u-reset" id="eye-off-or-eye-on" aria-label="mostrar senha">
+                                    <img class="c-form__eye" data-eye="eye-off" aria-describedby="eye-off-or-eye-on" src="./assets/eye-off.svg" alt="senha não visivel">
                                 </button>
                             </div>
                         </div>
@@ -55,6 +56,7 @@
         </div>
         <div class="c-figure"></div>
     </div>
-</body>
 
+    <script src="./dist/js/script.min.js"></script>
+</body>
 </html>

@@ -32,6 +32,11 @@
         &::placeholder {
             color: var(--color-94);
         }
+
+        &:hover,
+        &:focus {
+            outline: 2px solid var(--color-7c);
+        }
     }
 
     &__eye-button {
@@ -54,5 +59,11 @@
         margin-top: 3.2rem;
         background-color: var(--color-7c);
         border-radius: 0.4rem;
+        transition: all .3s ease;
+        cursor: pointer;
+
+        &:hover {
+            background-color: var(--color-9f);
+        }
     }
 }
