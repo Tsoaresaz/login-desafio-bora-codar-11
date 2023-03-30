@@ -33,11 +33,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Gulp-Uglify
 - Sass
 - BEM (Block, Element e Modify)
+- Vercel
 
 
 ## Projeto
 
+[link para acessar o projeto](https://login-desafio-bora-codar-11.vercel.app/)
+
 Para rodar o projeto basta abrir um novo terminal e executar o comando: 
+
 ```
 npm run gulp-dev
 ```
