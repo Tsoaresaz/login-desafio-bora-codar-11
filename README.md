@@ -32,6 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Gulp-Concat
 - Gulp-Uglify
 - Sass
+- BEM (Block, Element e Modify)
 
 
 ## Projeto
@@ -59,4 +60,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Feito com ♥ by Thiago Soares [Github!](https://github.com/Tsoaresaz)
