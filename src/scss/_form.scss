@@ -37,6 +37,21 @@
         &:focus {
             outline: 2px solid var(--color-7c);
         }
+        
+        &--danger {
+            &:hover,
+            &:focus {
+                outline: 2px solid var(--color-f6);
+            }
+        }
+    }
+
+    &__informative {
+        display: block;
+        margin-top: 0.3rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: var(--color-f6);
     }
 
     &__eye-button {

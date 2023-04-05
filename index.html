@@ -25,10 +25,11 @@
                     <p class="c-main__text">
                         Faça login ou registre-se para começar a construir seus projetos ainda hoje.
                     </p>
-                    <form class="c-form">
+                    <form class="c-form" id="js-form">
                         <div class="c-form__wrapper">
                             <label for="email" class="c-form__label u-d-block">E-mail</label>
-                            <input class="c-form__input u-d-block" type="email" name="email" id="email" placeholder="Digite seu e-mail" autofocus>
+                            <input class="c-form__input u-d-block" type="email" name="email" id="email" placeholder="Digite seu e-mail" minlength="3" required>
+                            <span class="c-form__informative text-muted danger"></span>
                         </div>
                         <div class="c-form__wrapper">
                             <div class="label-wrapper">
@@ -37,7 +38,8 @@
                             </div>
                             <div class="input-wrapper">
                                 <input class="c-form__input u-d-block" type="password" name="password" id="password"
-                                placeholder="Digite sua senha">
+                                placeholder="Digite sua senha" minlength="3" required>
+                                <span class="c-form__informative text-muted danger"></span>
 
                                 <button class="c-form__eye-button u-reset" id="eye-off-or-eye-on" aria-label="mostrar senha">
                                     <img class="c-form__eye" data-eye="eye-off" aria-describedby="eye-off-or-eye-on" src="./assets/eye-off.svg" alt="senha não visivel">
